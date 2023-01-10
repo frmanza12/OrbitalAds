@@ -1,0 +1,56 @@
+{
+    "TITTLE": "The 10 Best Places to Visit in the USA",
+    "GENERAL": {
+        "TITTLE": "OrbitalAds frontend challenge",
+        "CLEAR": "Clear",
+        "ERROR": "Error",
+        "LOADING": "Loading...",
+        "BACK": "Back"
+    },
+    "SELECTED_ITEMS":{
+        "TITTLE": "Selected Items"
+    },
+    "INFORMATION": {
+        "TITTLE": {
+            "INSTRUCTIONS": "Instructions",
+            "COMPONENTS": "Components"
+        },
+        "TEXTS": {
+            "INSTRUCTIONS": {
+                "1": "By using React + Typescript you have to create a multi select component that allows the user to:",
+                "2": "Select item by items",
+                "3": "See the selected items",
+                "4": "Filter the available items",
+                "5": "Clear all the selected items",
+                "6": "We will value that:",
+                "7": "you created reusable components",
+                "8": "you provided a nice component design so other developers can consume and understand the component easily",
+                "9": "you coded based on the requirements but also thought on possible new features",
+                "10": "you didn't create more than the necessary DOM elements",
+                "11": "you delivered a good solution eventhough not all functionalities work",
+                "12": "You can style the project components however you want. Css, Sass, Less, CSS-in-JS...",
+                "13": "Also, we will ask to be able to:",
+                "14": "Run the project locally by running npm start",
+                "15": "Compile the project by running npm run build",
+                "16": "You can use whatever transpilers and compiler tool you want to."
+            },
+            "COMPONENTS": {
+                "SEARCHITEMS": "SearchItems",
+                "SEARCHITEMS_TEXT1": "This component searches and renders the items in the list. When the user enters a string in the search engine, a request is made to the API 'https://swapi.dev/api/people/' and the list of items in the response is rendered. Each item in the list is a component of type Item",
+                "SEARCHITEMS_TEXT2": "This component uses its own Hooks useDebounce and useFetch.",
+                "SELECTEDITEMS": "SelectedItems",
+                "SELECTEDITEMS_TEXT1": "This component renders the list of selected list items. If the user clicks on one of these elements, the selected element is removed from the list.",
+                "SELECTEDITEMS_TEXT2": "Props:",
+                "SELECTEDITEMS_TEXT3": "selectedItems: Array of selected items",
+                "SELECTEDITEMS_TEXT4": "deleteItem: Function that receives the name of the item to be deleted",
+                "ITEM": "Item",
+                "ITEM_TEXT1": "This component renders each item in the list. If the user clicks on it, it is added or removed from the list of selected items.",
+                "ITEM_TEXT2": "Props:",
+                "ITEM_TEXT3": "name (string): Name of the item",
+                "ITEM_TEXT4": "selected (boolean):Defines whether the element is in the list of selected elements.",
+                "ITEM_TEXT5": "onClick (function): Adds or removes the item from the list of selected items",
+                "SCHEMA": "Schema of the components"
+            }
+        }
+    }
+}
